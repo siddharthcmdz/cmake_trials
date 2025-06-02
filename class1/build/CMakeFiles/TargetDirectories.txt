@@ -1,0 +1,3 @@
+C:/Projects/cmake-udemy/build/CMakeFiles/BasicsOfCMake.dir
+C:/Projects/cmake-udemy/build/CMakeFiles/ALL_BUILD.dir
+C:/Projects/cmake-udemy/build/CMakeFiles/ZERO_CHECK.dir

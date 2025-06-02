@@ -1,0 +1,10 @@
+^C:\PROJECTS\CMAKE-UDEMY\BUILD\CMAKEFILES\C6FA7282E3FC4CFAB26F8C858AE6E0DD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Projects/cmake-udemy -BC:/Projects/cmake-udemy/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projects/cmake-udemy/build/BasicsOfCMake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
