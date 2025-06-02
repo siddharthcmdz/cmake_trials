@@ -77,4 +77,7 @@ my_function(${PIZZA} "is" ${MY_VARIABLE} "dollars")
 
 #macros dont have a scope, functions do - use PARENT_SCOPE to escape scope
 
-
+#call ing a funcion from an include
+message(STATUS "using a function in include file")
+include(Functions.cmake)
+log("Hellow")
